@@ -23,8 +23,8 @@ int main(int argc, const char * argv[]) {
 
   @autoreleasepool {
 
-    NSString *defaultTerm = @"dinner";
-    NSString *defaultLocation = @"San Francisco, CA";
+    NSString *defaultTerm = @"club";
+    NSString *defaultLocation = @"Ann Arbor, MI";
 
     //Get the term and location from the command line if there were any, otherwise assign default values.
     NSString *term = [[NSUserDefaults standardUserDefaults] valueForKey:@"term"] ?: defaultTerm;
